@@ -18,9 +18,6 @@ import { routing }        from './app.routing';
     BrowserModule,
     ContactModule,
     InMemoryWebApiModule.forRoot(InMemoryDataService),
-/*
-    CoreModule,
-*/
     CoreModule.forRoot({userName: 'Miss Marple'}),
     routing
   ],
